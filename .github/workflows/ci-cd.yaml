@@ -111,7 +111,7 @@ jobs:
           fi
           
           # Commit y push
-          git commit -m "🚀 Deploy $NEW_VERSION to dev environment
+          git commit -m " Update image tag to $NEW_VERSION
 
           - Backend: ${{ env.DOCKERHUB_USERNAME }}/task-manager-backend:$NEW_VERSION
           - Frontend: ${{ env.DOCKERHUB_USERNAME }}/task-manager-frontend:$NEW_VERSION
