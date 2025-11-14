@@ -104,7 +104,7 @@ function App() {
             <div className="loading">Cargando tareas...</div>
           ) : tasks.length === 0 ? (
             <div className="empty-state">
-              <p>¡No hay tareas pendientes! 🎉</p>
+              <p>¡No hay tareas pendientes!🎉</p>
               <p>Agrega una nueva tarea para comenzar</p>
             </div>
           ) : (
